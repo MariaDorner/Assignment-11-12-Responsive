@@ -1,17 +1,66 @@
 .main-container {
   display: flex;
+  justify-content: center;
+  padding: 50px;
+  column-gap: 100px;
 }
 .text-container {
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
 }
 .nav-container {
   display: flex;
+  justify-content: space-between;
+}
+.logo {
+  font-family: "Baloo 2", cursive;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  letter-spacing: -0.25px;
+  color: #242635;
 }
 .link-container {
   display: flex;
+  column-gap: 20px;
+}
+
+.link {
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: #242635;
+  text-decoration: none;
 }
 .main-text-container {
   display: flex;
   flex-direction: column;
+  row-gap: 20px;
+}
+.title {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 90px;
+  line-height: 102px;
+  letter-spacing: -2px;
+  color: #242635;
+}
+.main-text {
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 33px;
+  color: #242635;
+}
+.icon-container {
+  display: flex;
+  align-self: flex-start;
+  width: 16px;
+  height: 40px;
 }
