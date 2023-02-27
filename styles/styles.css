@@ -3,11 +3,16 @@
   justify-content: center;
   padding: 50px;
   column-gap: 100px;
+  flex-wrap: wrap;
+  row-gap: 50px;
 }
 .text-container {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  max-width: 574px;
+  width: 100%;
+  row-gap: 100px;
 }
 .nav-container {
   display: flex;
@@ -63,4 +68,18 @@
   align-self: flex-start;
   width: 16px;
   height: 40px;
+}
+@media screen and (max-width: 1275px) {
+  svg.icon-container {
+    display: none;
+  }
+  h1.title {
+    font-size: 72px;
+    line-height: 83px;
+    letter-spacing: -1.6px;
+    text-align: center;
+  }
+  p.main-text {
+    text-align: center;
+  }
 }
