@@ -17,11 +17,12 @@
 .nav-container {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 .logo {
   font-family: "Baloo 2", cursive;
   font-style: normal;
-  font-weight: 500;
+  font-weight: 700;
   font-size: 24px;
   line-height: 36px;
   letter-spacing: -0.25px;
@@ -40,6 +41,10 @@
   line-height: 22px;
   color: #242635;
   text-decoration: none;
+}
+.dots {
+  width: 16px;
+  height: 4px;
 }
 .main-text-container {
   display: flex;
@@ -69,6 +74,11 @@
   width: 16px;
   height: 40px;
 }
+.img-soup {
+  max-width: 576px;
+  width: 100%;
+  height: auto;
+}
 @media screen and (max-width: 1275px) {
   svg.icon-container {
     display: none;
@@ -81,5 +91,27 @@
   }
   p.main-text {
     text-align: center;
+  }
+}
+@media screen and (max-width: 400px) {
+  a.link {
+    display: none;
+  }
+  h1.title {
+    font-size: 36px;
+    line-height: 40px;
+    text-align: center;
+    letter-spacing: -0.8px;
+  }
+  p.main-text {
+    font-size: 12px;
+    line-height: 18px;
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: 400px) {
+  svg.dots {
+    display: none;
   }
 }
